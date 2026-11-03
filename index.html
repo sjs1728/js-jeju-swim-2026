@@ -81,6 +81,32 @@
   .must p{font-size:13.5px;color:#42606e;margin-top:9px;}
   .must p b{color:#173f52;}
 
+  /* ---------- LUGGAGE ALERT ---------- */
+  .luggage-alert{position:relative;z-index:5;display:flex;gap:13px;align-items:flex-start;margin:-34px 18px 0;padding:17px 16px;border-radius:18px;background:linear-gradient(135deg,#ff7a55,#e8452a);color:#fff;box-shadow:0 12px 28px rgba(190,61,40,.28);}
+  .la-ic{flex:none;width:44px;height:44px;border-radius:14px;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;font-size:23px;}
+  .la-kicker{font-size:10.5px;font-weight:800;letter-spacing:.16em;opacity:.92;}
+  .la-title{font-size:18px;font-weight:900;letter-spacing:-.5px;margin-top:2px;}
+  .la-desc{font-size:12.5px;line-height:1.55;margin-top:4px;opacity:.96;}
+  .la-desc b{font-weight:800;text-decoration:underline;text-underline-offset:3px;}
+
+  /* ---------- LUGGAGE SIZE RULE ---------- */
+  .size-rule{border-radius:18px;padding:18px;background:linear-gradient(180deg,#fff4f0,#fff 70%);border:2px solid #ffc9bb;margin-bottom:14px;}
+  .sr-kicker{font-size:10px;font-weight:800;letter-spacing:.18em;color:#d4502f;}
+  .size-rule h3{font-size:21px;font-weight:900;letter-spacing:-.6px;margin-top:5px;color:#a92f23;}
+  .size-rule h3 span{color:#e8452a;}
+  .sr-desc{font-size:13px;color:#5e3731;margin-top:7px;}
+  .sr-desc b{color:#a92f23;font-weight:800;}
+  .size-compare{display:flex;gap:8px;margin-top:14px;}
+  .sc{flex:1;border-radius:13px;padding:11px 8px 10px;text-align:center;border:1px solid #e5f1f7;background:#fff;}
+  .sc .sc-ic{font-size:26px;line-height:1.2;}
+  .sc .sc-t{font-size:12px;font-weight:800;margin-top:3px;color:#33505e;}
+  .sc .sc-b{font-size:10.5px;font-weight:800;margin-top:2px;color:#1a8a5a;}
+  .sc.no{background:#fdf3f1;border-color:#ffd7cd;}
+  .sc.no .sc-ic{font-size:34px;opacity:.42;filter:grayscale(.4);}
+  .sc.no .sc-t{color:#8a6a63;}
+  .sc.no .sc-b{color:#d4502f;}
+  .sr-foot{font-size:11px;color:#8a6a63;margin-top:10px;text-align:center;}
+
   /* ---------- FLIGHT ---------- */
   .flight{background:#fff;border-radius:18px;border:1px solid var(--line);padding:16px;box-shadow:0 4px 16px rgba(12,79,110,.06);}
   .flight + .flight{margin-top:10px;}
@@ -202,6 +228,16 @@
       <path d="M0,26 C60,10 120,38 180,28 C240,18 300,4 360,18 C410,29 450,30 480,22 L480,46 L0,46 Z" fill="#f6fbfe"/>
     </svg>
   </header>
+
+  <!-- LUGGAGE ALERT -->
+  <div class="luggage-alert">
+    <div class="la-ic">🧳</div>
+    <div>
+      <p class="la-kicker">이번 제주 원정 필수</p>
+      <p class="la-title">기내용 크기 캐리어만!</p>
+      <p class="la-desc">이동 차량이 좁아 <b>큰 캐리어는 실을 수 없습니다.</b></p>
+    </div>
+  </div>
 
   <!-- 01 MUST -->
   <section id="must">
@@ -376,8 +412,27 @@
       <span class="sec-num">05</span>
       <div>
         <h2>캐리어 준비 방법</h2>
-        <p>캐리어 1개 · 지퍼백 4개로 구분해 주세요</p>
+        <p>기내용 크기 1개 · 지퍼백 4개로 구분해 주세요</p>
       </div>
+    </div>
+
+    <div class="size-rule">
+      <p class="sr-kicker">CARRY-ON ONLY</p>
+      <h3>기내용 크기 캐리어 <span>1개</span></h3>
+      <p class="sr-desc">현지 이동 차량의 적재 공간이 좁아 <b>큰 캐리어는 실을 수 없습니다.</b> 모든 짐을 기내용 캐리어 1개에 넣어 보내주세요.</p>
+      <div class="size-compare">
+        <div class="sc ok">
+          <div class="sc-ic">🧳</div>
+          <div class="sc-t">기내용</div>
+          <div class="sc-b">가능</div>
+        </div>
+        <div class="sc no">
+          <div class="sc-ic">🧳</div>
+          <div class="sc-t">대형 캐리어</div>
+          <div class="sc-b">불가</div>
+        </div>
+      </div>
+      <p class="sr-foot">20인치 이하 권장 · 공항에서는 위탁수하물로 맡깁니다</p>
     </div>
 
     <div class="bag">
@@ -413,7 +468,7 @@
     </div>
 
     <div class="tip">
-      🧳 <b>캐리어는 1개만</b> — 공항에서 위탁수하물로 맡깁니다. 외부에 반드시 선수 이름을 표시하고, 각 지퍼백에도 이름과 내용물을 적어주세요.
+      🧳 <b>기내용 크기 1개만</b> — 큰 캐리어는 이동 차량에 실을 수 없습니다. 외부에 반드시 선수 이름을 표시하고, 각 지퍼백에도 이름과 내용물을 적어주세요.
     </div>
   </section>
 
@@ -454,12 +509,13 @@
 
     <div class="check-wrap">
       <div class="check-top">
-        <div class="progress"><b id="cnt">0</b> / 11 완료</div>
+        <div class="progress"><b id="cnt">0</b> / <span id="total">12</span> 완료</div>
         <button class="reset" id="reset" type="button">전체 초기화</button>
       </div>
 
       <div class="check" data-k="card"><div class="box"></div><div class="txt">복지카드 원본<small>캐리어가 아닌 별도 보관</small></div></div>
       <div class="check" data-k="med"><div class="box"></div><div class="txt">개인 복용약<small>이름·시간 표시 후 김수연 선생님께 전달</small></div></div>
+      <div class="check" data-k="case"><div class="box"></div><div class="txt">기내용 크기 캐리어 1개<small>큰 캐리어 불가 · 차량 적재 공간 부족</small></div></div>
       <div class="check" data-k="tag"><div class="box"></div><div class="txt">캐리어 이름표<small>외부에 선수 이름 표시</small></div></div>
       <div class="check" data-k="zip"><div class="box"></div><div class="txt">지퍼백 4개 구분 포장<small>잠옷 · 시합복 1일 차 · 2일 차 · 일상복</small></div></div>
       <div class="check" data-k="suit"><div class="box"></div><div class="txt">시합용 수영복</div></div>
@@ -507,6 +563,8 @@
     var n = 0;
     items.forEach(function(el){ if(el.classList.contains('on')) n++; });
     cnt.textContent = n;
+    var total = document.getElementById('total');
+    if(total) total.textContent = items.length;
     doneMsg.classList.toggle('show', n === items.length);
   }
 
