@@ -182,6 +182,8 @@
   .gear div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 12px;font-size:13px;font-weight:700;display:flex;align-items:center;gap:8px;}
   .gear div span{font-size:17px;}
   .gear div.wide{grid-column:1 / -1;}
+  .gear div.key{background:#fff4ef;border-color:#ffc9b8;color:#a92f23;}
+  .gear div.key em{font-style:normal;font-size:10px;font-weight:900;color:#fff;background:#e8452a;border-radius:999px;padding:2px 7px;margin-left:auto;}
 
   /* ---------- CHECKLIST ---------- */
   .check-wrap{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 4px 16px rgba(12,79,110,.06);}
@@ -570,7 +572,12 @@
       <div><span>🧺</span> 습식 수건</div>
       <div><span>🩴</span> 슬리퍼 · 크록스</div>
       <div><span>👕</span> 반팔 · 반바지</div>
+      <div class="key"><span>🧥</span> 바람막이 <em>필수</em></div>
       <div class="wide"><span>🚫</span> 연습용 수영복은 필요하지 않습니다</div>
+    </div>
+
+    <div class="tip" style="margin-top:10px;background:#fff4ef;border-color:#ffd7c9;">
+      🧥 <b>시합 때 바람막이는 필수</b> — 젖은 몸으로 대기하면 금방 추워집니다. 경기 전후로 입을 바람막이를 반드시 챙겨주세요(수건 위에 바로 걸칠 수 있게 위쪽에 넣어두면 편합니다).
     </div>
 
     <div class="tip" style="margin-top:10px;">
@@ -603,6 +610,7 @@
       <div class="check" data-k="cap"><div class="box"></div><div class="txt">수모</div></div>
       <div class="check" data-k="gog"><div class="box"></div><div class="txt">수경</div></div>
       <div class="check" data-k="towel"><div class="box"></div><div class="txt">습식 수건(스포츠타월)</div></div>
+      <div class="check" data-k="wind"><div class="box"></div><div class="txt">바람막이<small>시합 때 필수 · 경기 전후 체온 유지</small></div></div>
       <div class="check" data-k="shoe"><div class="box"></div><div class="txt">슬리퍼 또는 크록스</div></div>
       <div class="check" data-k="wash"><div class="box"></div><div class="txt">개인 세면도구</div></div>
       <div class="check" data-k="name"><div class="box"></div><div class="txt">모든 물품 이름 표시<small>수영복·수모·수경·신발까지</small></div></div>
