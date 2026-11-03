@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>제주 수영대회 학부모 안내 | JS운동발달센터</title>
+<meta name="description" content="제19회 제주특별자치도지사배 전국장애인수영대회 — 11월 6일(금) 17:50 김해국제공항 집결. 복지카드 원본 필수 지참.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="제주 수영대회 학부모 안내 | JS운동발달센터">
+<meta property="og:description" content="11월 6일(금) 17:50 김해국제공항 집결 · 복지카드 원본 필수 · 개인 복용약은 김수연 선생님께 전달">
+<meta property="og:image" content="https://sjs1728.github.io/js-jeju-swim-2026/og.jpg">
+<meta property="og:url" content="https://sjs1728.github.io/js-jeju-swim-2026/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b6fa8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+  :root{
+    --sea:#0e7fbf;
+    --deep:#0a5d8c;
+    --ink:#12303f;
+    --sky:#eaf6fd;
+    --coral:#ff6b4a;
+    --gold:#f5a623;
+    --muted:#6b8794;
+    --line:#dcebf4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Noto Sans KR',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo',sans-serif;
+    background:#e8f3fa;
+    color:var(--ink);
+    line-height:1.65;
+    word-break:keep-all;
+    overflow-wrap:break-word;
+    -webkit-font-smoothing:antialiased;
+  }
+  .app{max-width:480px;margin:0 auto;background:#f6fbfe;min-height:100vh;box-shadow:0 0 60px rgba(10,93,140,.12);padding-bottom:86px;}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;overflow:hidden;background:linear-gradient(165deg,#0b6fa8 0%,#118fce 45%,#5cc6e8 100%);color:#fff;padding:26px 22px 84px;text-align:center;}
+  .hero .sun{position:absolute;top:-60px;right:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),rgba(255,255,255,0) 68%);}
+  .hero .cloud{position:absolute;width:120px;height:34px;background:rgba(255,255,255,.22);border-radius:40px;filter:blur(1px);}
+  .hero .cloud.c1{top:64px;left:-40px;}
+  .hero .cloud.c2{top:120px;right:-60px;width:160px;}
+  .hero-top{display:flex;align-items:center;justify-content:center;margin-bottom:18px;position:relative;z-index:2;}
+  .logo{height:42px;width:auto;background:#fff;border-radius:12px;padding:5px 9px;box-shadow:0 6px 18px rgba(0,0,0,.14);}
+  .eyebrow{font-size:10px;letter-spacing:.34em;font-weight:700;opacity:.9;margin-bottom:14px;position:relative;z-index:2;}
+  h1{font-size:23px;line-height:1.45;font-weight:900;letter-spacing:-.6px;position:relative;z-index:2;}
+  h1 span{font-size:19px;font-weight:700;}
+  .hero-sub{margin-top:10px;font-size:13px;font-weight:400;opacity:.94;position:relative;z-index:2;}
+  .date-badge{display:inline-block;margin-top:16px;font-size:12px;font-weight:700;letter-spacing:.06em;padding:7px 16px;border:1px solid rgba(255,255,255,.55);border-radius:99px;background:rgba(255,255,255,.13);position:relative;z-index:2;}
+  .gather-card{position:relative;z-index:2;margin:22px auto 0;background:#fff;color:var(--ink);border-radius:20px;padding:18px 16px 16px;box-shadow:0 14px 34px rgba(5,60,90,.25);}
+  .gather-label{display:inline-block;background:var(--coral);color:#fff;font-size:11px;font-weight:700;letter-spacing:.14em;padding:4px 11px;border-radius:99px;}
+  .gather-time{margin-top:10px;font-size:16px;font-weight:500;color:#33505e;}
+  .gather-time b{font-size:31px;font-weight:900;color:var(--coral);letter-spacing:-.5px;vertical-align:-1px;}
+  .gather-place{margin-top:2px;font-size:16px;font-weight:700;}
+  .gather-note{margin-top:6px;font-size:12px;color:var(--muted);}
+  .hero-wave{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:46px;display:block;z-index:1;}
+
+  /* ---------- SECTION BASE ---------- */
+  section{padding:34px 18px 6px;}
+  .sec-head{display:flex;align-items:flex-start;gap:10px;margin-bottom:16px;}
+  .sec-num{flex:none;font-size:10px;font-weight:700;color:var(--sea);letter-spacing:.12em;border:1px solid #c6e3f3;background:#fff;border-radius:8px;padding:4px 7px;margin-top:3px;}
+  .sec-head h2{font-size:20px;font-weight:900;letter-spacing:-.5px;line-height:1.35;}
+  .sec-head p{font-size:12px;color:var(--muted);margin-top:2px;font-weight:400;}
+
+  .card{background:#fff;border-radius:18px;padding:18px;box-shadow:0 4px 16px rgba(12,79,110,.06);border:1px solid var(--line);}
+  .card + .card{margin-top:10px;}
+
+  /* ---------- MUST ---------- */
+  .must{border-radius:18px;padding:16px 16px 15px;background:#fff;border:1px solid var(--line);margin-top:10px;position:relative;overflow:hidden;}
+  .must:first-of-type{margin-top:0;}
+  .must.key{border:2px solid #ffc7bb;background:linear-gradient(180deg,#fff8f6,#fff);}
+  .must-top{display:flex;align-items:center;gap:10px;}
+  .must-ic{flex:none;width:42px;height:42px;border-radius:12px;background:var(--sky);display:flex;align-items:center;justify-content:center;font-size:21px;}
+  .must.key .must-ic{background:#ffece7;}
+  .must h3{font-size:16px;font-weight:800;letter-spacing:-.3px;}
+  .must .tag{display:inline-block;margin-left:6px;font-size:10px;font-weight:700;color:var(--coral);background:#ffece7;border-radius:6px;padding:2px 6px;vertical-align:2px;}
+  .must p{font-size:13.5px;color:#42606e;margin-top:9px;}
+  .must p b{color:#173f52;}
+
+  /* ---------- FLIGHT ---------- */
+  .flight{background:#fff;border-radius:18px;border:1px solid var(--line);padding:16px;box-shadow:0 4px 16px rgba(12,79,110,.06);}
+  .flight + .flight{margin-top:10px;}
+  .flight-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  .flight-head .d{font-size:13px;font-weight:800;}
+  .flight-head .d span{font-size:11px;font-weight:500;color:var(--muted);margin-left:5px;}
+  .flight-head .no{font-size:10px;font-weight:700;color:var(--sea);background:var(--sky);border-radius:6px;padding:4px 8px;letter-spacing:.04em;}
+  .route{display:flex;align-items:center;gap:8px;}
+  .port{flex:none;width:96px;text-align:center;}
+  .port .t{font-size:27px;font-weight:900;letter-spacing:-1px;color:var(--deep);line-height:1.15;}
+  .port .c{font-size:10px;font-weight:700;color:var(--sea);letter-spacing:.16em;margin-top:1px;}
+  .port .n{font-size:11px;color:var(--muted);margin-top:1px;}
+  .flight .arrow{flex:1;position:relative;height:34px;}
+  .flight .arrow svg{width:100%;height:100%;display:block;}
+  .flight .arrow .plane{position:absolute;left:50%;top:0;transform:translateX(-50%);font-size:14px;}
+  .flight .arrow .dur{position:absolute;left:0;right:0;bottom:-4px;text-align:center;font-size:10px;color:var(--muted);}
+  .flight .note{margin-top:12px;padding-top:11px;border-top:1px dashed var(--line);font-size:12px;color:var(--muted);}
+  .flight .note b{color:#c2410c;font-weight:700;}
+
+  /* ---------- TIMELINE ---------- */
+  .tl{position:relative;padding-left:26px;}
+  .tl:before{content:'';position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:linear-gradient(#a9d8ee,#d9eef8);border-radius:2px;}
+  .day{position:relative;padding-bottom:16px;}
+  .day:last-child{padding-bottom:0;}
+  .day:before{content:'';position:absolute;left:-24px;top:6px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid var(--sea);}
+  .day.final:before{border-color:var(--coral);}
+  .day-chip{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.08em;color:var(--sea);background:var(--sky);border-radius:6px;padding:3px 8px;}
+  .day.final .day-chip{color:#c2410c;background:#fff0eb;}
+  .day h3{font-size:15px;font-weight:800;margin-top:6px;letter-spacing:-.3px;}
+  .day p{font-size:12.5px;color:#4c6875;margin-top:3px;}
+  .day .sub{font-size:11.5px;color:var(--muted);margin-top:2px;}
+
+  /* ---------- STAY ---------- */
+  .stay{padding:16px;border-radius:18px;background:#fff;border:1px solid var(--line);}
+  .stay + .stay{margin-top:10px;}
+  .stay .h{display:flex;align-items:center;gap:8px;}
+  .stay .h .b{font-size:11px;font-weight:700;color:#fff;background:var(--sea);border-radius:6px;padding:3px 8px;}
+  .stay.pending .h .b{background:#9db6c2;}
+  .stay h3{font-size:15.5px;font-weight:800;margin-top:8px;}
+  .stay p{font-size:12.5px;color:#4c6875;margin-top:4px;}
+  .stay .muted{color:var(--muted);font-size:12px;}
+  .stay .map{display:inline-flex;align-items:center;gap:6px;margin-top:12px;padding:9px 14px;border-radius:10px;background:var(--sky);color:var(--deep);font-size:12px;font-weight:700;text-decoration:none;}
+
+  /* ---------- PACKING ---------- */
+  .bag{display:flex;gap:12px;padding:14px;background:#fff;border:1px solid var(--line);border-radius:16px;}
+  .bag + .bag{margin-top:8px;}
+  .bag .num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--sea);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;}
+  .bag h4{font-size:14px;font-weight:800;}
+  .bag p{font-size:12px;color:var(--muted);margin-top:2px;}
+  .bag .when{font-size:10.5px;font-weight:700;color:#c2410c;background:#fff0eb;border-radius:5px;padding:2px 6px;display:inline-block;margin-top:6px;}
+  .tip{margin-top:12px;background:#fffaf0;border:1px solid #fbe3b8;border-radius:14px;padding:13px 14px;font-size:12.5px;color:#7a5410;}
+  .tip b{color:#8a4b00;}
+
+  /* ---------- GEAR ---------- */
+  .gear{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  .gear div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 12px;font-size:13px;font-weight:700;display:flex;align-items:center;gap:8px;}
+  .gear div span{font-size:17px;}
+  .gear div.wide{grid-column:1 / -1;}
+
+  /* ---------- CHECKLIST ---------- */
+  .check-wrap{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 4px 16px rgba(12,79,110,.06);}
+  .check-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
+  .progress{font-size:12px;font-weight:700;color:var(--muted);}
+  .progress b{color:var(--sea);font-size:15px;}
+  .reset{border:0;background:#eef6fb;color:var(--muted);font-size:11px;font-weight:600;border-radius:8px;padding:6px 10px;font-family:inherit;cursor:pointer;}
+  .check{display:flex;align-items:flex-start;gap:11px;padding:12px 2px;border-bottom:1px solid #eef5f9;cursor:pointer;user-select:none;}
+  .check:last-of-type{border-bottom:0;}
+  .box{flex:none;width:22px;height:22px;border-radius:7px;border:2px solid #cfe2ec;background:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;transition:.15s;margin-top:1px;}
+  .check.on .box{background:var(--sea);border-color:var(--sea);}
+  .check.on .box:after{content:'✓';font-weight:900;}
+  .check .txt{font-size:13.5px;font-weight:500;color:#2f4d5c;}
+  .check .txt small{display:block;font-size:11px;color:var(--muted);font-weight:400;}
+  .check.on .txt{color:#9db2bd;text-decoration:line-through;}
+  .check.on .txt small{text-decoration:none;}
+  .done-msg{display:none;margin-top:12px;text-align:center;font-size:13px;font-weight:800;color:var(--sea);background:var(--sky);border-radius:12px;padding:11px;}
+  .done-msg.show{display:block;}
+
+  /* ---------- FOOTER ---------- */
+  .foot{text-align:center;padding:30px 20px 18px;color:var(--muted);font-size:12px;}
+  .foot .emo{font-size:24px;letter-spacing:6px;margin-bottom:8px;}
+  .foot strong{display:block;color:var(--deep);font-size:13px;font-weight:800;margin-top:10px;letter-spacing:.02em;}
+
+  /* ---------- NAV ---------- */
+  .nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-top:1px solid #dceaf3;display:flex;z-index:50;padding:6px 0 calc(6px + env(safe-area-inset-bottom));}
+  .nav a{flex:1;text-align:center;text-decoration:none;color:#8aa2ae;font-size:10.5px;font-weight:700;padding:4px 0;}
+  .nav a span{display:block;font-size:17px;line-height:1.3;filter:grayscale(1);opacity:.65;}
+  .nav a:active{color:var(--sea);}
+  .nav a:active span{filter:none;opacity:1;}
+  .top-btn{position:fixed;right:calc(50% - 240px + 14px);bottom:86px;width:42px;height:42px;border-radius:50%;background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(10,93,140,.16);color:var(--sea);font-size:16px;display:none;align-items:center;justify-content:center;z-index:51;cursor:pointer;}
+  .top-btn.show{display:flex;}
+  @media (max-width:480px){ .top-btn{right:14px;} }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="sun"></div>
+    <div class="cloud c1"></div>
+    <div class="cloud c2"></div>
+
+    <div class="hero-top">
+      <img src="js_logo.jpg" alt="JS운동발달센터" class="logo">
+    </div>
+    <p class="eyebrow">JEJU SWIM TRIP 2026</p>
+    <h1>제19회 제주특별자치도지사배<br><span>전국장애인수영대회</span></h1>
+    <p class="hero-sub">우리 선수들의 특별한 제주 원정</p>
+    <div class="date-badge">11.06 FRI — 11.09 MON · 3박 4일</div>
+
+    <div class="gather-card">
+      <span class="gather-label">집결</span>
+      <p class="gather-time">11월 6일(금) <b>17:50</b></p>
+      <p class="gather-place">김해국제공항 국내선 청사</p>
+      <p class="gather-note">23명 단체 이동 · 반드시 시간을 지켜주세요</p>
+    </div>
+
+    <svg class="hero-wave" viewBox="0 0 480 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,26 C60,10 120,38 180,28 C240,18 300,4 360,18 C410,29 450,30 480,22 L480,46 L0,46 Z" fill="#f6fbfe"/>
+    </svg>
+  </header>
+
+  <!-- 01 MUST -->
+  <section id="must">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <div>
+        <h2>꼭 확인해 주세요</h2>
+        <p>이 세 가지만은 반드시 챙겨주세요</p>
+      </div>
+    </div>
+
+    <div class="must key">
+      <div class="must-top">
+        <div class="must-ic">🪪</div>
+        <h3>복지카드 원본 <span class="tag">필수</span></h3>
+      </div>
+      <p>항공기 탑승 시 신분 확인에 필요합니다. <b>캐리어에 넣지 마시고</b>, 공항에서 바로 꺼낼 수 있도록 별도로 보관해 주세요.</p>
+    </div>
+
+    <div class="must">
+      <div class="must-top">
+        <div class="must-ic">💊</div>
+        <h3>개인 복용약</h3>
+      </div>
+      <p>약 봉투에 <b>선수 이름과 복용 시간</b>을 표시해 주세요. 준비한 약은 <b>김수연 선생님께 모두 전달</b>합니다.</p>
+    </div>
+
+    <div class="must">
+      <div class="must-top">
+        <div class="must-ic">🏷️</div>
+        <h3>모든 물품에 이름 표시</h3>
+      </div>
+      <p>캐리어, 의류, 수영복, 수모, 수경, 신발까지 — 전국대회는 선수가 많아 <b>이름이 없으면 찾기 어렵습니다.</b></p>
+    </div>
+  </section>
+
+  <!-- 02 FLIGHT -->
+  <section id="flight">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <div>
+        <h2>항공편 안내</h2>
+        <p>대한항공 왕복 · 시간은 항공편 사정에 따라 달라질 수 있어요</p>
+      </div>
+    </div>
+
+    <div class="flight">
+      <div class="flight-head">
+        <div class="d">11월 6일 금요일 <span>제주로 가는 날</span></div>
+        <div class="no">KE1563</div>
+      </div>
+      <div class="route">
+        <div class="port">
+          <div class="t">19:25</div>
+          <div class="c">PUS</div>
+          <div class="n">김해국제공항</div>
+        </div>
+        <div class="arrow">
+          <div class="plane">✈️</div>
+          <svg viewBox="0 0 140 34" aria-hidden="true">
+            <path d="M2,22 C40,22 60,10 138,10" fill="none" stroke="#b9dcee" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round"/>
+            <circle cx="2" cy="22" r="3" fill="#0e7fbf"/>
+            <circle cx="138" cy="10" r="3" fill="#ff6b4a"/>
+          </svg>
+          <div class="dur">1시간</div>
+        </div>
+        <div class="port">
+          <div class="t">20:25</div>
+          <div class="c">CJU</div>
+          <div class="n">제주국제공항</div>
+        </div>
+      </div>
+      <div class="note"><b>17:50</b> 김해국제공항 국내선 청사 집결 · 23명 단체 이동</div>
+    </div>
+
+    <div class="flight">
+      <div class="flight-head">
+        <div class="d">11월 9일 월요일 <span>부산으로 돌아오는 날</span></div>
+        <div class="no">KE1530</div>
+      </div>
+      <div class="route">
+        <div class="port">
+          <div class="t">13:25</div>
+          <div class="c">CJU</div>
+          <div class="n">제주국제공항</div>
+        </div>
+        <div class="arrow">
+          <div class="plane">✈️</div>
+          <svg viewBox="0 0 140 34" aria-hidden="true">
+            <path d="M2,22 C40,22 60,10 138,10" fill="none" stroke="#b9dcee" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round"/>
+            <circle cx="2" cy="22" r="3" fill="#0e7fbf"/>
+            <circle cx="138" cy="10" r="3" fill="#ff6b4a"/>
+          </svg>
+          <div class="dur">1시간</div>
+        </div>
+        <div class="port">
+          <div class="t">14:25</div>
+          <div class="c">PUS</div>
+          <div class="n">김해국제공항</div>
+        </div>
+      </div>
+      <div class="note">11월 9일 <b>오후 2시 25분 김해공항 도착 예정</b> · 마중 준비에 참고해 주세요</div>
+    </div>
+  </section>
+
+  <!-- 03 SCHEDULE -->
+  <section id="schedule">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <div>
+        <h2>제주에서의 4일</h2>
+        <p>3박 4일 일정 한눈에 보기</p>
+      </div>
+    </div>
+
+    <div class="tl">
+      <div class="day">
+        <span class="day-chip">DAY 1</span>
+        <h3>11월 6일 금요일 · 부산 → 제주</h3>
+        <p>김해국제공항 집결 17:50</p>
+        <p class="sub">19:25 출발 · 20:25 제주 도착 · 숙소 이동 및 휴식</p>
+      </div>
+      <div class="day">
+        <span class="day-chip">DAY 2</span>
+        <h3>11월 7일 토요일 · 대회 1일 차</h3>
+        <p>제주종합경기장 실내수영장</p>
+        <p class="sub">경기 준비 및 전국장애인수영대회 1일 차</p>
+      </div>
+      <div class="day">
+        <span class="day-chip">DAY 3</span>
+        <h3>11월 8일 일요일 · 대회 2일 차</h3>
+        <p>경기 종료 후 제주 올레 하우스로 이동</p>
+        <p class="sub">마지막 날 숙박</p>
+      </div>
+      <div class="day final">
+        <span class="day-chip">DAY 4</span>
+        <h3>11월 9일 월요일 · 제주 → 부산</h3>
+        <p>제주공항 13:25 출발</p>
+        <p class="sub">김해공항 14:25 도착 예정</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 STAY -->
+  <section id="stay">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <div>
+        <h2>숙소 안내</h2>
+        <p>날짜에 따라 숙소가 달라집니다</p>
+      </div>
+    </div>
+
+    <div class="stay pending">
+      <div class="h"><span class="b">11/6 ~ 11/7</span></div>
+      <h3>대회 기간 숙소</h3>
+      <p class="muted">숙소가 확정되면 별도로 안내드립니다.</p>
+    </div>
+
+    <div class="stay">
+      <div class="h"><span class="b">11/8</span></div>
+      <h3>제주 올레 하우스</h3>
+      <p>제주특별자치도 제주시 덕행로 450-23</p>
+      <p class="muted">독채 펜션 · 체크인 오후 3시 이후 · 체크아웃 오전 11시 이전</p>
+      <a class="map" href="https://map.kakao.com/link/search/제주시%20덕행로%20450-23" target="_blank" rel="noopener">📍 지도에서 보기</a>
+    </div>
+  </section>
+
+  <!-- 05 PACKING -->
+  <section id="pack">
+    <div class="sec-head">
+      <span class="sec-num">05</span>
+      <div>
+        <h2>캐리어 준비 방법</h2>
+        <p>캐리어 1개 · 지퍼백 4개로 구분해 주세요</p>
+      </div>
+    </div>
+
+    <div class="bag">
+      <div class="num">1</div>
+      <div>
+        <h4>잠옷</h4>
+        <p>취침 시 필요한 의류</p>
+      </div>
+    </div>
+    <div class="bag">
+      <div class="num">2</div>
+      <div>
+        <h4>시합복 1일 차</h4>
+        <p>11월 7일 경기 준비 의류</p>
+        <span class="when">11/7 토요일</span>
+      </div>
+    </div>
+    <div class="bag">
+      <div class="num">3</div>
+      <div>
+        <h4>시합복 2일 차</h4>
+        <p>11월 8일 경기 준비 의류</p>
+        <span class="when">11/8 일요일</span>
+      </div>
+    </div>
+    <div class="bag">
+      <div class="num">4</div>
+      <div>
+        <h4>3일 차 일상복</h4>
+        <p>11월 9일 귀국 시 착용할 의류</p>
+        <span class="when">11/9 월요일</span>
+      </div>
+    </div>
+
+    <div class="tip">
+      🧳 <b>캐리어는 1개만</b> — 공항에서 위탁수하물로 맡깁니다. 외부에 반드시 선수 이름을 표시하고, 각 지퍼백에도 이름과 내용물을 적어주세요.
+    </div>
+  </section>
+
+  <!-- 06 GEAR -->
+  <section id="gear">
+    <div class="sec-head">
+      <span class="sec-num">06</span>
+      <div>
+        <h2>수영 준비물</h2>
+        <p>체크리스트와 함께 하나씩 확인해 주세요</p>
+      </div>
+    </div>
+
+    <div class="gear">
+      <div><span>🩱</span> 시합용 수영복</div>
+      <div><span>🧢</span> 수모</div>
+      <div><span>🥽</span> 수경</div>
+      <div><span>🧺</span> 습식 수건</div>
+      <div><span>🩴</span> 슬리퍼 · 크록스</div>
+      <div><span>👕</span> 반팔 · 반바지</div>
+      <div class="wide"><span>🚫</span> 연습용 수영복은 필요하지 않습니다</div>
+    </div>
+
+    <div class="tip" style="margin-top:10px;">
+      👟 운동화를 신고 출발하면 <b>수영장 슬리퍼를 캐리어에</b> 넣어주세요. 크록스 등을 신고 출발하면 별도 신발은 필요 없습니다. 모든 신발에도 이름을 표시해 주세요.
+    </div>
+  </section>
+
+  <!-- 07 CHECK -->
+  <section id="check">
+    <div class="sec-head">
+      <span class="sec-num">07</span>
+      <div>
+        <h2>출발 준비 체크리스트</h2>
+        <p>누르면 체크됩니다 · 다시 열어도 유지돼요</p>
+      </div>
+    </div>
+
+    <div class="check-wrap">
+      <div class="check-top">
+        <div class="progress"><b id="cnt">0</b> / 11 완료</div>
+        <button class="reset" id="reset" type="button">전체 초기화</button>
+      </div>
+
+      <div class="check" data-k="card"><div class="box"></div><div class="txt">복지카드 원본<small>캐리어가 아닌 별도 보관</small></div></div>
+      <div class="check" data-k="med"><div class="box"></div><div class="txt">개인 복용약<small>이름·시간 표시 후 김수연 선생님께 전달</small></div></div>
+      <div class="check" data-k="tag"><div class="box"></div><div class="txt">캐리어 이름표<small>외부에 선수 이름 표시</small></div></div>
+      <div class="check" data-k="zip"><div class="box"></div><div class="txt">지퍼백 4개 구분 포장<small>잠옷 · 시합복 1일 차 · 2일 차 · 일상복</small></div></div>
+      <div class="check" data-k="suit"><div class="box"></div><div class="txt">시합용 수영복</div></div>
+      <div class="check" data-k="cap"><div class="box"></div><div class="txt">수모</div></div>
+      <div class="check" data-k="gog"><div class="box"></div><div class="txt">수경</div></div>
+      <div class="check" data-k="towel"><div class="box"></div><div class="txt">습식 수건(스포츠타월)</div></div>
+      <div class="check" data-k="shoe"><div class="box"></div><div class="txt">슬리퍼 또는 크록스</div></div>
+      <div class="check" data-k="wash"><div class="box"></div><div class="txt">개인 세면도구</div></div>
+      <div class="check" data-k="name"><div class="box"></div><div class="txt">모든 물품 이름 표시<small>수영복·수모·수경·신발까지</small></div></div>
+
+      <div class="done-msg" id="doneMsg">준비 완료! 제주에서 멋진 경기를 펼쳐요! 🏊</div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="emo">🌊 🏊 ✈️</div>
+    <p>선수들이 안전하고 즐겁게 다녀올 수 있도록<br>저희가 세심하게 챙기겠습니다.</p>
+    <strong>JS 운동발달센터</strong>
+  </footer>
+</div>
+
+<nav class="nav">
+  <a href="#schedule"><span>📅</span>일정</a>
+  <a href="#flight"><span>✈️</span>항공편</a>
+  <a href="#pack"><span>🧳</span>준비물</a>
+  <a href="#check"><span>✅</span>체크리스트</a>
+</nav>
+<button class="top-btn" id="topBtn" type="button" aria-label="맨 위로">↑</button>
+
+<script>
+(function(){
+  var KEY = 'jeju-swim-check-v1';
+  var items = document.querySelectorAll('.check');
+  var cnt = document.getElementById('cnt');
+  var doneMsg = document.getElementById('doneMsg');
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { saved = {}; }
+
+  function save(){
+    var o = {};
+    items.forEach(function(el){ if(el.classList.contains('on')) o[el.getAttribute('data-k')] = 1; });
+    try { localStorage.setItem(KEY, JSON.stringify(o)); } catch(e) {}
+  }
+  function refresh(){
+    var n = 0;
+    items.forEach(function(el){ if(el.classList.contains('on')) n++; });
+    cnt.textContent = n;
+    doneMsg.classList.toggle('show', n === items.length);
+  }
+
+  items.forEach(function(el){
+    var k = el.getAttribute('data-k');
+    if(saved[k]) el.classList.add('on');
+    el.addEventListener('click', function(){
+      el.classList.toggle('on');
+      save(); refresh();
+    });
+  });
+
+  document.getElementById('reset').addEventListener('click', function(){
+    items.forEach(function(el){ el.classList.remove('on'); });
+    saved = {}; save(); refresh();
+  });
+
+  refresh();
+
+  var topBtn = document.getElementById('topBtn');
+  window.addEventListener('scroll', function(){
+    topBtn.classList.toggle('show', window.scrollY > 600);
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+</html>
