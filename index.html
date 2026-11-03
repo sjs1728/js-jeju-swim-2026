@@ -107,6 +107,13 @@
   .sc.no .sc-b{color:#d4502f;}
   .sr-foot{font-size:11px;color:#8a6a63;margin-top:10px;text-align:center;}
 
+  /* ---------- ZIP BAGS ---------- */
+  .zip-vis{background:#fff;border:1px solid #dceaf3;border-radius:18px;padding:14px 12px 12px;margin-bottom:14px;}
+  .zip-vis svg{display:block;width:100%;height:auto;}
+  .zip-flow{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;margin-top:10px;font-size:11px;font-weight:800;color:#2a7fb8;}
+  .zip-flow i{font-style:normal;color:#9dc0d3;}
+  .zip-flow b{background:#eaf6fd;border-radius:999px;padding:4px 9px;font-weight:800;}
+
   /* ---------- PACK DIAGRAM ---------- */
   .pack-vis{background:#fff;border:1px solid #dceaf3;border-radius:18px;padding:14px 12px 12px;margin-bottom:14px;}
   .pv-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;padding:0 3px;}
@@ -496,35 +503,48 @@
       </div>
     </div>
 
-    <div class="bag">
-      <div class="num">1</div>
-      <div>
-        <h4>잠옷</h4>
-        <p>취침 시 필요한 의류</p>
-      </div>
-    </div>
-    <div class="bag">
-      <div class="num">2</div>
-      <div>
-        <h4>시합복 1일 차</h4>
-        <p>11월 7일 경기 준비 의류</p>
-        <span class="when">11/7 토요일</span>
-      </div>
-    </div>
-    <div class="bag">
-      <div class="num">3</div>
-      <div>
-        <h4>시합복 2일 차</h4>
-        <p>11월 8일 경기 준비 의류</p>
-        <span class="when">11/8 일요일</span>
-      </div>
-    </div>
-    <div class="bag">
-      <div class="num">4</div>
-      <div>
-        <h4>3일 차 일상복</h4>
-        <p>11월 9일 귀국 시 착용할 의류</p>
-        <span class="when">11/9 월요일</span>
+    <div class="zip-vis">
+      <svg viewBox="0 0 330 378" role="img" aria-label="지퍼백 4개에 잠옷, 시합복 1일차, 시합복 2일차, 일상복을 나눠 담는 그림">
+        <g>
+          <rect x="12" y="8" width="145" height="168" rx="16" fill="#eef8fd" stroke="#a9d3e8" stroke-width="2"/>
+          <rect x="24" y="20" width="121" height="11" rx="5.5" fill="#cfe6f2"/>
+          <circle cx="132" cy="25.5" r="5" fill="#8fc4de"/>
+          <line x1="24" y1="42" x2="145" y2="42" stroke="#b7dcee" stroke-width="2" stroke-dasharray="6 4"/>
+          <text x="84" y="106" text-anchor="middle" font-size="40">🌙</text>
+          <text x="84" y="132" text-anchor="middle" font-size="14" font-weight="800" fill="#1e4a63">① 잠옷</text>
+          <text x="84" y="150" text-anchor="middle" font-size="10" fill="#5b7d8f">취침용 옷 한 벌</text>
+          <circle cx="30" cy="30" r="0" fill="none"/>
+        </g>
+        <g>
+          <rect x="173" y="8" width="145" height="168" rx="16" fill="#ffeae2" stroke="#ffb8a3" stroke-width="2"/>
+          <rect x="185" y="20" width="121" height="11" rx="5.5" fill="#ffcfc0"/>
+          <circle cx="293" cy="25.5" r="5" fill="#f0775f"/>
+          <line x1="185" y1="42" x2="306" y2="42" stroke="#ffc3b0" stroke-width="2" stroke-dasharray="6 4"/>
+          <text x="245" y="106" text-anchor="middle" font-size="40">🩱</text>
+          <text x="245" y="132" text-anchor="middle" font-size="14" font-weight="800" fill="#96291a">② 시합복 1일 차</text>
+          <text x="245" y="150" text-anchor="middle" font-size="10" fill="#96604f">11/7 · 수모 · 수경</text>
+        </g>
+        <g>
+          <rect x="12" y="194" width="145" height="168" rx="16" fill="#ffe4da" stroke="#ffb29b" stroke-width="2"/>
+          <rect x="24" y="206" width="121" height="11" rx="5.5" fill="#ffcabb"/>
+          <circle cx="132" cy="211.5" r="5" fill="#e8452a"/>
+          <line x1="24" y1="228" x2="145" y2="228" stroke="#ffb8a3" stroke-width="2" stroke-dasharray="6 4"/>
+          <text x="84" y="292" text-anchor="middle" font-size="40">🩱</text>
+          <text x="84" y="318" text-anchor="middle" font-size="14" font-weight="800" fill="#a03020">③ 시합복 2일 차</text>
+          <text x="84" y="336" text-anchor="middle" font-size="10" fill="#96604f">11/8 · 수모 · 수경</text>
+        </g>
+        <g>
+          <rect x="173" y="194" width="145" height="168" rx="16" fill="#eef8fd" stroke="#a9d3e8" stroke-width="2"/>
+          <rect x="185" y="206" width="121" height="11" rx="5.5" fill="#cfe6f2"/>
+          <circle cx="293" cy="211.5" r="5" fill="#8fc4de"/>
+          <line x1="185" y1="228" x2="306" y2="228" stroke="#b7dcee" stroke-width="2" stroke-dasharray="6 4"/>
+          <text x="245" y="292" text-anchor="middle" font-size="40">👕</text>
+          <text x="245" y="318" text-anchor="middle" font-size="14" font-weight="800" fill="#1e4a63">④ 3일 차 일상복</text>
+          <text x="245" y="336" text-anchor="middle" font-size="10" fill="#5b7d8f">11/9 귀국할 때 입을 옷</text>
+        </g>
+      </svg>
+      <div class="zip-flow">
+        <b>옷</b><i>→</i><b>지퍼백 4개</b><i>→</i><b>이름 스티커</b><i>→</i><b>캐리어 1개</b>
       </div>
     </div>
 
