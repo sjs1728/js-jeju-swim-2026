@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>제주 수영대회 학부모 안내 | JS운동발달센터</title>
-<meta name="description" content="제19회 제주특별자치도지사배 전국장애인수영대회 — 11월 6일(금) 17:50 김해국제공항 집결. 복지카드 원본 필수 지참.">
+<meta name="description" content="제19회 제주특별자치도지사배 전국장애인수영대회 — 11월 6일(금) 17:50 김해국제공항 집결. 복지카드 원본·개인 백팩 필수 지참.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="제주 수영대회 학부모 안내 | JS운동발달센터">
 <meta property="og:description" content="11월 6일(금) 17:50 김해국제공항 집결 · 복지카드 원본 필수 · 개인 복용약은 김수연 선생님께 전달">
@@ -184,6 +184,26 @@
   .gear div.wide{grid-column:1 / -1;}
   .gear div.key{background:#fff4ef;border-color:#ffc9b8;color:#a92f23;}
   .gear div.key em{font-style:normal;font-size:10px;font-weight:900;color:#fff;background:#e8452a;border-radius:999px;padding:2px 7px;margin-left:auto;}
+
+  /* ---------- EXTRA GEAR ---------- */
+  .new-badge{display:inline-block;font-size:10px;font-weight:900;letter-spacing:.08em;color:#fff;background:var(--coral);border-radius:999px;padding:3px 9px;vertical-align:4px;margin-left:6px;}
+  .ex-h{font-size:15px;font-weight:900;letter-spacing:-.3px;color:#173f52;margin-bottom:10px;}
+  .outfit{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  .outfit div{background:#f7fbfe;border:1px solid var(--line);border-radius:13px;padding:12px;font-size:13px;font-weight:700;color:#2f4d5c;text-align:center;}
+  .outfit div.key{background:#fff4ef;border-color:#ffc9b8;color:#a92f23;}
+  .outfit em{font-style:normal;font-size:10px;font-weight:900;color:#fff;background:#e8452a;border-radius:999px;padding:2px 7px;margin-left:4px;}
+  .ex-note{font-size:12px;color:var(--muted);margin-top:10px;}
+  .bp{border-radius:18px;padding:17px 16px;background:linear-gradient(180deg,#eef9ff,#fff 70%);border:2px solid #b8e2f7;margin-top:10px;}
+  .bp-head{display:flex;align-items:center;gap:11px;}
+  .bp-ic{flex:none;width:46px;height:46px;border-radius:14px;background:#dff1fc;display:flex;align-items:center;justify-content:center;font-size:24px;}
+  .bp-title{font-size:17px;font-weight:900;letter-spacing:-.4px;color:#12303f;}
+  .bp-title em{font-style:normal;font-size:10px;font-weight:900;color:#fff;background:var(--coral);border-radius:999px;padding:3px 8px;vertical-align:3px;margin-left:5px;}
+  .bp-sub{font-size:11.5px;color:var(--muted);margin-top:2px;}
+  .bp p{font-size:13px;line-height:1.62;color:#3c5c6b;margin-top:10px;}
+  .bp p b{color:#0a5d8c;font-weight:800;}
+  .bp-flow{display:flex;align-items:center;justify-content:center;gap:5px;flex-wrap:wrap;margin-top:11px;font-size:10.5px;font-weight:800;color:#2a7fb8;}
+  .bp-flow i{font-style:normal;color:#9dc0d3;}
+  .bp-flow b{background:#eaf6fd;border-radius:999px;padding:4px 8px;}
 
   /* ---------- CHECKLIST ---------- */
   .check-wrap{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 4px 16px rgba(12,79,110,.06);}
@@ -601,10 +621,48 @@
     </div>
   </section>
 
-  <!-- 07 CHECK -->
-  <section id="check">
+  <!-- 07 EXTRA -->
+  <section id="extra">
     <div class="sec-head">
       <span class="sec-num">07</span>
+      <div>
+        <h2>추가로 챙겨주세요<span class="new-badge">추가 안내</span></h2>
+        <p>기존 준비물에 더해 꼭 확인해 주세요</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="ex-h">👕 시합복 및 의류</h3>
+      <div class="outfit">
+        <div>반팔 티셔츠</div>
+        <div>반바지</div>
+        <div>긴바지<em>1벌</em></div>
+        <div class="key">바람막이<em>1벌</em></div>
+      </div>
+      <p class="ex-note">긴바지는 이동할 때 추위에 대비해 1벌 챙겨주세요.</p>
+    </div>
+
+    <div class="bp">
+      <div class="bp-head">
+        <div class="bp-ic">🎒</div>
+        <div>
+          <div class="bp-title">개인 백팩<em>필수</em></div>
+          <div class="bp-sub">아이가 직접 메고 다닐 수 있는 크기</div>
+        </div>
+      </div>
+      <p>시합장에서 옷을 갈아입은 뒤 <b>개인 옷과 수영복 등을 백팩에 넣어 이동</b>합니다. 캐리어와 별도로, 아이가 직접 멜 수 있는 적당한 크기의 백팩을 준비해 주세요.</p>
+      <div class="bp-flow"><b>캐리어</b><i>→</i><b>시합장에서 환복</b><i>→</i><b>개인 옷·수영복은 백팩으로</b></div>
+    </div>
+
+    <div class="tip" style="background:#fff4ef;border-color:#ffd7c9;">
+      ✍️ <b>모든 의류와 개인 물품에 이름을 적어주세요</b> — 백팩 안쪽에도 이름이 보이면 찾기 쉽습니다.
+    </div>
+  </section>
+
+  <!-- 08 CHECK -->
+  <section id="check">
+    <div class="sec-head">
+      <span class="sec-num">08</span>
       <div>
         <h2>출발 준비 체크리스트</h2>
         <p>누르면 체크됩니다 · 다시 열어도 유지돼요</p>
@@ -613,7 +671,7 @@
 
     <div class="check-wrap">
       <div class="check-top">
-        <div class="progress"><b id="cnt">0</b> / <span id="total">12</span> 완료</div>
+        <div class="progress"><b id="cnt">0</b> / <span id="total">15</span> 완료</div>
         <button class="reset" id="reset" type="button">전체 초기화</button>
       </div>
 
@@ -627,6 +685,8 @@
       <div class="check" data-k="gog"><div class="box"></div><div class="txt">수경</div></div>
       <div class="check" data-k="towel"><div class="box"></div><div class="txt">습식 수건(스포츠타월)</div></div>
       <div class="check" data-k="wind"><div class="box"></div><div class="txt">바람막이<small>시합 때 필수 · 경기 전후 체온 유지</small></div></div>
+      <div class="check" data-k="pants"><div class="box"></div><div class="txt">긴바지 1벌<small>이동할 때 추위 대비</small></div></div>
+      <div class="check" data-k="backpack"><div class="box"></div><div class="txt">개인 백팩<small>아이가 직접 메는 크기 · 시합장 이동용</small></div></div>
       <div class="check" data-k="shoe"><div class="box"></div><div class="txt">슬리퍼 또는 크록스</div></div>
       <div class="check" data-k="wash"><div class="box"></div><div class="txt">개인 세면도구</div></div>
       <div class="check" data-k="name"><div class="box"></div><div class="txt">모든 물품 이름 표시<small>수영복·수모·수경·신발까지</small></div></div>
@@ -646,6 +706,7 @@
   <a href="#schedule"><span>📅</span>일정</a>
   <a href="#flight"><span>✈️</span>항공편</a>
   <a href="#pack"><span>🧳</span>준비물</a>
+  <a href="#extra"><span>🎒</span>백팩</a>
   <a href="#check"><span>✅</span>체크리스트</a>
 </nav>
 <button class="top-btn" id="topBtn" type="button" aria-label="맨 위로">↑</button>
